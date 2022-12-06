@@ -19,6 +19,7 @@ h1 {
   font-family: cursive;
   color: white;
   text-align: center;
+  margin-top: 24px;
 }
 
 div {
@@ -28,6 +29,7 @@ div {
 #container {
   width: 466px;
   height: 288px;
+  display: block;
   position: relative;
   margin: auto;
   border-radius: 0px;
@@ -68,16 +70,17 @@ div {
   border-top-left-radius: 10000px;
 }
 
-.footer {
+.sparkle {
   width: 100%;
+  display: block;
   text-align: center;
-  position: fixed;
+  position: relative;
   bottom: 0;
-  padding: 0;
-  margin: 0;
+  margin-top: 24px;
+  background: none;
 }
 
-@media only screen and (min-device-width: 375px) and (max-device-width: 812px){ 
+@media only screen and (min-device-width: 320px) and (max-device-width: 812px){ 
   #containter {
     width: 233px;
     height: 144px;
