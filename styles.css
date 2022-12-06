@@ -82,15 +82,11 @@ div {
 
 @media (min-width: 320px) and (max-width: 699px) { 
   #containter {
-    max-width: 66%;
-    max-height: 57%;
+    width: 233px;
+    height: 144px;
   }
   
   h1 {
-    margin-bottom: 124px;
-  }
-  
-  .sparkle {
     margin-top: 124px;
   }
 }
