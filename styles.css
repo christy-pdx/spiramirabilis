@@ -1,91 +1,102 @@
 body {
-    background: linear-gradient(
-          90deg,
-          rgba(255, 0, 0, 0.09) 0%,
-          rgba(255, 154, 0, 0.09) 10%,
-          rgba(208, 222, 33, 0.09) 20%,
-          rgba(79, 220, 74, 0.09) 30%,
-          rgba(63, 218, 216, 0.09) 40%,
-          rgba(47, 201, 226, 0.09) 50%,
-          rgba(28, 127, 238, 0.09) 60%,
-          rgba(95, 21, 242, 0.09) 70%,
-          rgba(186, 12, 248, 0.09) 80%,
-          rgba(251, 7, 217, 0.09) 90%,
-          rgba(255, 0, 0, 0.09) 100%
-      );
-  }
+  background: linear-gradient(
+        90deg,
+        rgba(255, 0, 0, 0.09) 0%,
+        rgba(255, 154, 0, 0.09) 10%,
+        rgba(208, 222, 33, 0.09) 20%,
+        rgba(79, 220, 74, 0.09) 30%,
+        rgba(63, 218, 216, 0.09) 40%,
+        rgba(47, 201, 226, 0.09) 50%,
+        rgba(28, 127, 238, 0.09) 60%,
+        rgba(95, 21, 242, 0.09) 70%,
+        rgba(186, 12, 248, 0.09) 80%,
+        rgba(251, 7, 217, 0.09) 90%,
+        rgba(255, 0, 0, 0.09) 100%
+    );
+}
   
-  h1 {
-    font-family: cursive;
-    color: white;
-    margin-left: 24px;
-  }
+h1 {
+  font-family: cursive;
+  color: white;
+  margin-left: 24px;
+}
   
-  div {
-    background-color: rgba(155, 38, 182, 0.07);
-  }
+div {
+  background-color: rgba(155, 38, 182, 0.07);
+}
   
-  #container {
-    width: 466px;
-    height: 288px;
-    position: relative;
+#container {
+  width: 466px;
+  height: 288px;
+  position: relative;
+  margin: auto;
+  border-radius: 0px;
+  border-top-left-radius: 10000px;
+}
+  
+.cycle {
+  height: 100%;
+  width: 38.2%;
+  float: right;
+  border-radius: 0px;
+  border-top-right-radius: 10000px;
+}
+  
+.cycle > div {
+  height: 38.2%;
+  width: 38.2%;
+  position: absolute;
+  bottom: 0;
+  border-radius: 0px;
+  border-bottom-right-radius: 10000px;
+}
+  
+.cycle > div > div {
+  height: 100%;
+  width: 38.2%;
+  float: left;
+  border-radius: 0px;
+  border-bottom-left-radius: 10000px;
+}
+  
+.cycle > div > div > div {
+  height: 38.2%;
+  width: 38.2%;
+  position: absolute;
+  top: 0;
+  border-radius: 0px;
+  border-top-left-radius: 10000px;
+}
+
+@media (min-device-width: 375px) and (max-device-width: 812px){ 
+  #containter {
+    width: 233px;
+    height: 144px;
     margin: auto;
+    position: relative;
     border-radius: 0px;
     border-top-left-radius: 10000px;
   }
+}
   
-  .cycle {
-    height: 100%;
-    width: 38.2%;
-    float: right;
-    border-radius: 0px;
-    border-top-right-radius: 10000px;
-  }
-  
-  .cycle > div {
-    height: 38.2%;
-    width: 38.2%;
-    position: absolute;
-    bottom: 0;
-    border-radius: 0px;
-    border-bottom-right-radius: 10000px;
-  }
-  
-  .cycle > div > div {
-    height: 100%;
-    width: 38.2%;
-    float: left;
-    border-radius: 0px;
-    border-bottom-left-radius: 10000px;
-  }
-  
-  .cycle > div > div > div {
-    height: 38.2%;
-    width: 38.2%;
-    position: absolute;
-    top: 0;
+@media (min-width: 700px) and (min-height: 450px) {
+  #container {
+    width: 699px;
+    height: 432px;
+    margin: auto;
+    position: relative;
     border-radius: 0px;
     border-top-left-radius: 10000px;
   }
+}
   
-  @media (min-width: 700px) and (min-height: 450px) {
-    #container {
-      width: 699px;
-      height: 432px;
-      margin: auto;
-      position: relative;
-      border-radius: 0px;
-      border-top-left-radius: 10000px;
-    }
+@media (min-width: 1000px) and (min-height: 600px) {
+  #container {
+    width: 932px;
+    height: 576px;
+    margin: auto;
+    position: relative;
+    border-radius: 0px;
+    border-top-left-radius: 10000px;
   }
-  
-  @media (min-width: 1000px) and (min-height: 600px) {
-    #container {
-      width: 932px;
-      height: 576px;
-      margin: auto;
-      position: relative;
-      border-radius: 0px;
-      border-top-left-radius: 10000px;
-    }
-  }  
+}
