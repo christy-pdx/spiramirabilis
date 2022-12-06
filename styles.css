@@ -82,8 +82,8 @@ div {
 
 @media (min-width: 320px) and (max-width: 699px) { 
   #containter {
-    width: 233px;
-    height: 144px;
+    width: 44%;
+    height 44%;
   }
   
   h1 {
