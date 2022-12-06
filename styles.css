@@ -81,7 +81,7 @@ div {
 }
 
 @media (max-width: 699px) { 
-  #containter {
+  #container {
     width: 233px;
     height: 144px;
   }
