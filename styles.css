@@ -80,10 +80,18 @@ div {
   background: none;
 }
 
-@media only screen and (min-device-width: 320px) and (max-device-width: 812px){ 
+@media (min-width: 320px) and (max-width: 699px) { 
   #containter {
-    width: 233px;
-    height: 144px;
+    max-width: 66%;
+    max-height: 57%;
+  }
+  
+  h1 {
+    margin-bottom: 124px;
+  }
+  
+  .sparkle {
+    margin-top: 124px;
   }
 }
 
