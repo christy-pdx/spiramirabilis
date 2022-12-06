@@ -14,17 +14,17 @@ body {
         rgba(255, 0, 0, 0.09) 100%
     );
 }
-  
+
 h1 {
   font-family: cursive;
   color: white;
-  margin-left: 24px;
+  text-align: center;
 }
-  
+
 div {
   background-color: rgba(155, 38, 182, 0.07);
 }
-  
+
 #container {
   width: 466px;
   height: 288px;
@@ -33,7 +33,7 @@ div {
   border-radius: 0px;
   border-top-left-radius: 10000px;
 }
-  
+
 .cycle {
   height: 100%;
   width: 38.2%;
@@ -41,7 +41,7 @@ div {
   border-radius: 0px;
   border-top-right-radius: 10000px;
 }
-  
+
 .cycle > div {
   height: 38.2%;
   width: 38.2%;
@@ -50,7 +50,7 @@ div {
   border-radius: 0px;
   border-bottom-right-radius: 10000px;
 }
-  
+
 .cycle > div > div {
   height: 100%;
   width: 38.2%;
@@ -58,7 +58,7 @@ div {
   border-radius: 0px;
   border-bottom-left-radius: 10000px;
 }
-  
+
 .cycle > div > div > div {
   height: 38.2%;
   width: 38.2%;
@@ -68,35 +68,32 @@ div {
   border-top-left-radius: 10000px;
 }
 
-@media (min-device-width: 375px) and (max-device-width: 812px){ 
+.footer {
+  width: 100%;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  padding: 0;
+  margin: 0;
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px){ 
   #containter {
     width: 233px;
     height: 144px;
-    margin: auto;
-    position: relative;
-    border-radius: 0px;
-    border-top-left-radius: 10000px;
   }
 }
-  
+
 @media (min-width: 700px) and (min-height: 450px) {
   #container {
     width: 699px;
     height: 432px;
-    margin: auto;
-    position: relative;
-    border-radius: 0px;
-    border-top-left-radius: 10000px;
   }
 }
-  
+
 @media (min-width: 1000px) and (min-height: 600px) {
   #container {
     width: 932px;
     height: 576px;
-    margin: auto;
-    position: relative;
-    border-radius: 0px;
-    border-top-left-radius: 10000px;
   }
 }
